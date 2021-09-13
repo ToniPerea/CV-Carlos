@@ -1,3 +1,12 @@
+.vl {
+  border-left: 6px solid green;
+  height: 1300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
 .App {
   text-align: center;
 }
