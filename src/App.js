@@ -10,10 +10,7 @@ function App() {
   return (
     <>
     {/* <div class="vl"></div> */}
-    <NavBarComponent/>
-    <Fotos></Fotos>
-    <Shuffle ></Shuffle>
-    <FooterComponent/>
+    
     </>
   );
 }
