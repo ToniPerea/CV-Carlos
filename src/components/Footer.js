@@ -1,6 +1,6 @@
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Card,Button, Row, Col,Container } from "react-bootstrap";
+import { Row, Col,Container } from "react-bootstrap";
 
 
 const FooterComponent = (props) =>{
