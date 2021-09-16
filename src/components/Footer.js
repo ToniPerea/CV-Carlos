@@ -6,7 +6,7 @@ import { Card,Button, Row, Col,Container } from "react-bootstrap";
 const FooterComponent = (props) =>{
     return (
       <>
-        <Container>
+        <Container className="mb-5">
           <Row className="text-center">
             <p>Follow me on Instagram and Twitter to get the latest updates.</p>
           </Row>
