@@ -17,7 +17,7 @@ const NavBarComponent = (props) =>{
               <Nav className=" mx-3 ">
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-                <Nav.Link href="#pricing">About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="#pricing">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
