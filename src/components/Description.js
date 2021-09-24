@@ -1,4 +1,4 @@
-import { Container, Row, Col, ListGroup } from "react-bootstrap";
+import { Container, Row, Col, ListGroup, Image } from "react-bootstrap";
 import Fotos from "./Fotos";
 
 const Description = (props) => {
@@ -60,25 +60,25 @@ const Description = (props) => {
           </Row>
         </Container>
 
-        <Container className="mb-5" style={{ width: "80%" }}>
+        <Container className="mb-5"  style={{ width: "80%" }}>
           <Fotos />
 
           <Row className="mt-4 mb-4 justify-content-between">
             <Col
-              xs={12}
+              xs={5}
               md={5}
-              className=" mb-4"
+              className=" "
               style={{ backgroundColor: "purple"}}
             >
-              <h1>alberto</h1>
+              <Image src="img/carlos.png" fluid/>
             </Col>
             <Col
-              xs={12}
+              xs={5}
               md={5}
               className=""
               style={{ backgroundColor: "purple"}}
             >
-              <h1>antonio</h1>
+              <Image src="img/carlos.png" fluid/>
             </Col>
           </Row>
 
