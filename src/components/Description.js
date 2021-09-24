@@ -5,14 +5,17 @@ const Description = (props) => {
     return (
       <>
         <Container className="mb-4">
-          <Row className="mt-4 justify-content-center justify-content-center">
+          <Row>
             <Col
-              xs={12}
-              md={5}
-              className="mx-3 mb-4"
-              style={{ height: "400px" }}
+            xs={12}
+            md={5}
+            className="mx-3"
             >
               <h1>Aquadella Tipography</h1>
+            </Col>
+          </Row>
+          <Row className="mt-4 justify-content-start">
+            <Col xs={12} md={5} className="mx-3 mb-4">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
                 rutrum elit libero, ac dignissim dui facilisis a. Pellentesque
@@ -30,12 +33,7 @@ const Description = (props) => {
                 blandit risus, a malesuada purus lacus at orci.
               </p>
             </Col>
-            <Col
-              xs={12}
-              md={5}
-              className="mx-3"
-              style={{ height: "280px" }}
-            >
+            <Col xs={12} md={5} className="">
               <ListGroup className="mx-3 mt-2" variant="flush">
                 <ListGroup.Item>
                   <b>Year:</b> 2018
@@ -60,7 +58,7 @@ const Description = (props) => {
           </Row>
         </Container>
 
-        <Container className="mb-5"  style={{ width: "80%" }}>
+        <Container className="mb-5" style={{ width: "80%" }}>
           <Fotos />
 
           <Row className="mt-4 mb-4 justify-content-between">
@@ -68,21 +66,21 @@ const Description = (props) => {
               xs={5}
               md={5}
               className=" "
-              style={{ backgroundColor: "purple"}}
+              style={{ backgroundColor: "purple" }}
             >
-              <Image src="img/carlos.png" fluid/>
+              <Image src="img/carlos.png" fluid />
             </Col>
             <Col
               xs={5}
               md={5}
               className=""
-              style={{ backgroundColor: "purple"}}
+              style={{ backgroundColor: "purple" }}
             >
-              <Image src="img/carlos.png" fluid/>
+              <Image src="img/carlos.png" fluid />
             </Col>
           </Row>
 
-          <Fotos/>
+          <Fotos />
         </Container>
       </>
     );
