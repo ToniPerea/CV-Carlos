@@ -6,11 +6,7 @@ const Description = (props) => {
       <>
         <Container className="mb-4">
           <Row>
-            <Col
-            xs={12}
-            md={5}
-            className="mx-3"
-            >
+            <Col xs={12} md={5} className="mx-3">
               <h1>Aquadella Tipography</h1>
             </Col>
           </Row>
@@ -58,29 +54,32 @@ const Description = (props) => {
           </Row>
         </Container>
 
-        <Container className="mb-5" style={{ width: "80%" }}>
+        <Container className="mb-5" style={{ width: "80%", padding:'0' }}>
           <Fotos />
 
           <Row className="mt-4 mb-4 justify-content-between">
-            <Col
-              xs={5}
-              md={5}
-              className=" "
-              style={{ backgroundColor: "purple" }}
-            >
-              <Image src="img/carlos.png" fluid />
+            <Col xs={6} md={6} className="ps-0 ">
+              <Image
+                src={`/img/proyect` + 1 + `/Aquadella_Especimen.png`}
+                fluid
+              />
             </Col>
-            <Col
-              xs={5}
-              md={5}
-              className=""
-              style={{ backgroundColor: "purple" }}
-            >
-              <Image src="img/carlos.png" fluid />
+            <Col xs={6} md={6} className="pe-0">
+              <Image src={`/img/proyect` + 1 + `/Aquadella_Poster.png`} fluid />
             </Col>
           </Row>
 
-          <Fotos />
+          <Row>
+            <Image
+              style={{
+                width: "100%",
+                objectFit: "contain",
+                maxWidth: "100%",
+                padding: "0",
+              }}
+              src="img/proyect1/Aquadella_Poemario.png"
+            />
+          </Row>
         </Container>
       </>
     );

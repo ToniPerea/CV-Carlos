@@ -21,9 +21,6 @@ const NavBarComponent = (props) =>{
                 <Nav.Link className="mx-auto" href="/about">
                   About
                 </Nav.Link>
-                <Nav.Link className="mx-auto" href="#pricing">
-                  Contact
-                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
