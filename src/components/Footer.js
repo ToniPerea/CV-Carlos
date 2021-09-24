@@ -21,20 +21,6 @@ const FooterComponent = (props) =>{
             </Col>
           </Row>
         </Container>
-        {/* <Container className="text-center">
-          <Row>
-            <p>Follow me on Instagram and Twitter to get the latest updates.</p>
-          </Row>
-          <Row className="justify-content-center">
-            <Col  className="fixed d-block px-4"  xs={1} style={{width:'0.875em'}} >
-              <FontAwesomeIcon size="2x" icon={faTwitter} />
-              
-            </Col>
-            <Col  className="fixed px-4"  style={{width:'0.875em'}} xs={1}>
-            <FontAwesomeIcon size="2x" icon={faInstagram} />
-            </Col>
-          </Row>
-        </Container> */}
       </>
     );
 }

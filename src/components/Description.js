@@ -54,21 +54,32 @@ const Description = (props) => {
           </Row>
         </Container>
 
-        <Container className="mb-5" style={{ width: "80%", padding:'0' }}>
+        <Container className="mb-5" style={{ width: "80%", padding: "0" }}>
           <Fotos />
 
-          <Row className="mt-4 mb-4 justify-content-between">
-            <Col xs={6} md={6} className="ps-0 ">
-              <Image
-                src={`/img/proyect` + 1 + `/Aquadella_Especimen.png`}
-                fluid
-                rounded
-              />
-            </Col>
-            <Col xs={6} md={6} className="pe-0">
-              <Image src={`/img/proyect` + 1 + `/Aquadella_Poster.png`} fluid
-              rounded />
-            </Col>
+          <Row className="mt-4 mb-4">
+            <Image
+              style={{
+                width: "100%",
+                objectFit: "contain",
+                maxWidth: "100%",
+                padding: "0",
+              }}
+              src="/img/proyect1/Aquadella_Especimen.png"
+              fluid
+            />
+          </Row>
+          <Row className="mb-4">
+            <Image
+              style={{
+                width: "100%",
+                objectFit: "contain",
+                maxWidth: "100%",
+                padding: "0",
+              }}
+              src="/img/proyect1/Aquadella_Poster.png"
+              fluid
+            />
           </Row>
 
           <Row>
@@ -79,9 +90,8 @@ const Description = (props) => {
                 maxWidth: "100%",
                 padding: "0",
               }}
-              src="img/proyect1/Aquadella_Poemario.png"
+              src="/img/proyect1/Aquadella_Poemario.png"
               fluid
-              rounded
             />
           </Row>
         </Container>

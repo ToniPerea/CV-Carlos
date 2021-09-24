@@ -6,7 +6,7 @@ const About = (props) =>{
         <Container className="mb-5">
           <Row className="mb-5">
             <Col className="text-center" >
-              <Image src="img/carlos.png" rounded className="w-50"></Image>
+              <Image src="img/carlos.png" className="w-50"></Image>
             </Col>
             <Col>
               <h1>Carlos Revaliente López</h1>
