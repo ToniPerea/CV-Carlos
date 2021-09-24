@@ -8,7 +8,6 @@ const PortfolioPage = (props) =>{
         <>
         <NavBarComponent/>
         <Portfolio/>
-        <Shuffle></Shuffle>
         <FooterComponent></FooterComponent>
         </>
     );

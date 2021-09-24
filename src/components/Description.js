@@ -63,20 +63,20 @@ const Description = (props) => {
         <Container className="mb-5" style={{ width: "80%" }}>
           <Fotos />
 
-          <Row className="mt-4 mb-4 justify-content-center">
+          <Row className="mt-4 mb-4 justify-content-between">
             <Col
               xs={12}
               md={5}
-              className="mx-3 mb-4"
-              style={{ backgroundColor: "purple", height: "600px" }}
+              className=" mb-4"
+              style={{ backgroundColor: "purple"}}
             >
               <h1>alberto</h1>
             </Col>
             <Col
               xs={12}
               md={5}
-              className="mx-3"
-              style={{ backgroundColor: "purple", height: "600px" }}
+              className=""
+              style={{ backgroundColor: "purple"}}
             >
               <h1>antonio</h1>
             </Col>
