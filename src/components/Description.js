@@ -62,10 +62,12 @@ const Description = (props) => {
               <Image
                 src={`/img/proyect` + 1 + `/Aquadella_Especimen.png`}
                 fluid
+                rounded
               />
             </Col>
             <Col xs={6} md={6} className="pe-0">
-              <Image src={`/img/proyect` + 1 + `/Aquadella_Poster.png`} fluid />
+              <Image src={`/img/proyect` + 1 + `/Aquadella_Poster.png`} fluid
+              rounded />
             </Col>
           </Row>
 
@@ -78,6 +80,8 @@ const Description = (props) => {
                 padding: "0",
               }}
               src="img/proyect1/Aquadella_Poemario.png"
+              fluid
+              rounded
             />
           </Row>
         </Container>

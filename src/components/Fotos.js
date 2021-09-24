@@ -8,6 +8,8 @@ const Fotos = (props) => {
           <Image
             style={{ width: "100%", objectFit: "contain", maxWidth: "100%",padding:'0' }}
             src="img/proyect1/Aquadella_Libreta.png"
+            fluid
+            rounded
           />
         </Row>
         {/* </Container> */}
