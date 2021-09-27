@@ -7,7 +7,7 @@ const Home = (props) =>{
     return (
       <>
         <NavBarComponent/>
-        <Fotos></Fotos>
+        <Fotos name="proyect1/Aquadella_Especimen.png"></Fotos>
         <Shuffle></Shuffle>
         <FooterComponent />
       </>
